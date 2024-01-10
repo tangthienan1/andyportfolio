@@ -57,7 +57,7 @@ export const experiences: BackgroundDetailType[] = [
         teamSize: 12,
         modal: 'Agile/Scrum',
         technologies:
-            'ReactJS, Jest, RTL, Git, Rally, TypeSCript, GraphQL, Backend for frontend, A11y, AWS, Jenkins, Micro FE',
+            'ReactJS, Jest, RTL, Git, Rally, TypeScript, GraphQL, BFF, A11y, AWS, Jenkins, Micro FE, Nodejs, Bash script, Terraform, Hashicorp Vault, Linux, Docker',
         description:
             'For full-time official work, my team collaborated with Australian and Indian teams. My squad takes responsibility for a mini-app. My role is to implement the UI within integrate BioCatch and a11y, create resolvers on BFF, write queries or mutations with Apollo, and Spike and implement new functions, mentor new members, and present any new feature or new archive to the whole team. Take sharing section, Own some training class in office...',
         subtitleLink: 'https://www.nab.com.au/',
@@ -114,7 +114,7 @@ export const educations: BackgroundDetailType[] = [
         subTitle: 'Credential',
         subtitleLink:
             'https://www.apollographql.com/tutorials/certifications/51793318-c989-4c57-a9f3-ee0c0310144f',
-        time: '2016-2020',
+        time: 'Issued on 9/5/2022',
         address: 'Apollo GraphQL',
     },
 ];

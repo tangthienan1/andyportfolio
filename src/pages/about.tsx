@@ -24,7 +24,10 @@ const About = () => {
             <CustomHead title="About Page" content="any" />
             <main className="flex w-full flex-col items-center justify-center dark:text-light">
                 <Layout>
-                    <AnimatedText text={aboutTitle} className="mb-16 sm:mb-8" />
+                    <AnimatedText
+                        text={aboutTitle}
+                        className="text-center mb-32 lg:mb-16 md:mb-12 sm:mb-8"
+                    />
                     <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
                         <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
                             <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">

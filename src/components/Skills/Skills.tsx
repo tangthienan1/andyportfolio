@@ -36,7 +36,7 @@ const Skills = () => {
                 <SkillItem name={'ReactJS'} x={'-10vw'} y={'12vw'} />
                 <SkillItem name={'NodeJS'} x={'5vw'} y={'19vw'} />
                 <SkillItem name={'Express'} x={'20vw'} y={'19vw'} />
-                <SkillItem name={'GatsbyJS'} x={'15vw'} y={'-12vw'} />
+                <SkillItem name={'Docker'} x={'15vw'} y={'-12vw'} />
                 <SkillItem name={'A11y'} x={'29vw'} y={'-5vw'} />
                 <SkillItem name={'GraphQL'} x={'20vw'} y={'2vw'} />
             </div>

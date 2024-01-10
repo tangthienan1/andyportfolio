@@ -10,11 +10,7 @@ type AnimatedTextType = {
 
 const AnimatedText: FC<AnimatedTextType> = ({ text, className }) => {
     return (
-        <div
-            className={
-                'lw-full mx-auto py-2 flex items-center justify-center text-center overflow-hidden sm:p-0'
-            }
-        >
+        <div className={'lw-full py-2 flex justify-center overflow-hidden sm:p-0'}>
             <motion.h1
                 className={`inline-block w-full text-dark font-bold capitalize text-8xl dark:text-light 
                 lg:!text-7xl sm:!text-6xl xs:!text-4xl

@@ -29,10 +29,10 @@ const Home: FC = () => {
                                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                             />
                         </div>
-                        <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
+                        <div className="w-1/2 flex flex-col self-center lg:w-full lg:text-center">
                             <AnimatedText
                                 text={landingPageTitle}
-                                className="!text-6xl !text-left xl:!text-5xl lg:!text-center "
+                                className="!text-6xl text-left xl:!text-5xl sm:text-center sm:py-3"
                             />
                             <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                                 {landingPageDescription}
@@ -46,7 +46,7 @@ const Home: FC = () => {
                                 />
                                 <Link
                                     href="mailto:tangthienan9@gmail.com"
-                                    className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-basel"
+                                    className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-basel lg:text-center"
                                 >
                                     Contact
                                 </Link>
