@@ -16,6 +16,7 @@ const Detail: FC<DetailType> = ({
     teamSize,
     technologies,
     modal,
+    scopes,
 }) => {
     const ref = useRef(null);
     return (
@@ -29,9 +30,9 @@ const Detail: FC<DetailType> = ({
                 initial={{ y: 50 }}
                 whileInView={{ y: 0 }}
                 transition={{ duration: 0.5, type: 'spring' }}
-                className='flex flex-col gap-1'
+                className="flex flex-col gap-1"
             >
-                <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
+                <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg pb-4">
                     {title}
                     {subTitle && (
                         <a
@@ -44,12 +45,24 @@ const Detail: FC<DetailType> = ({
                         </a>
                     )}
                 </h3>
-                <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
+                <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm pb-4">
                     {time} | {address}
                 </span>
-                <p className="font-medium w-full md:text-sm">{description}</p>
+                <p className="font-medium w-full md:text-sm pb-4">{description}</p>
                 {teamSize && <p className="font-medium w-full md:text-sm">Team size: {teamSize}</p>}
                 {modal && <p className="font-medium w-full md:text-sm">Modal: {modal}</p>}
+                {scopes && (
+                    <div className="pb-4">
+                        <p className="font-medium w-full md:text-sm pb-2">Scopes:</p>
+                        <ul className="list-disc list-inside">
+                            {scopes.map((scope, index) => (
+                                <li key={index} className="pb-2">
+                                    <p className="font-medium w-full md:text-sm inline">{scope}</p>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                )}
                 {technologies && (
                     <span className="font-medium w-fit md:text-sm inline-block">
                         Technologies: {technologies}

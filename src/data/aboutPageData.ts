@@ -47,6 +47,7 @@ export type BackgroundDetailType = {
     teamSize?: number;
     technologies?: string;
     modal?: string;
+    scopes?: string[];
 };
 export const experiences: BackgroundDetailType[] = [
     {
@@ -61,6 +62,22 @@ export const experiences: BackgroundDetailType[] = [
         description:
             'For full-time official work, my team collaborated with Australian and Indian teams. My squad takes responsibility for a mini-app. My role is to implement the UI within integrate BioCatch and a11y, create resolvers on BFF, write queries or mutations with Apollo, and Spike and implement new functions, mentor new members, and present any new feature or new archive to the whole team. Take sharing section, Own some training class in office...',
         subtitleLink: 'https://www.nab.com.au/',
+        scopes: [
+            'Implement features or bug fixing with high quality, and high test coverage (with Jest on Be or Jest + RTL on FE).',
+            'Build app UI from the design',
+            'Implement bff with GraqhQL method and Nodejs and express',
+            'Build a stub data to interact with the application',
+            'Deployment',
+            'Build a simulated shell to interact with app',
+            'Config Jenskin Pipeline, implement BioCatch, Ally',
+            'Create Cloudformation templates',
+            'Code review',
+            'Spiking new feature',
+            'Join Planning meetings to split tasks.',
+            'Join training as a guilder.',
+            'Guiding new member',
+            'Make sharing session (Formik, PKI model,...)',
+        ],
     },
     {
         title: 'Software Engineer',
@@ -72,6 +89,12 @@ export const experiences: BackgroundDetailType[] = [
         modal: 'Agile/Scrum',
         technologies: 'React native, Jest, Enzyme, Redux, Git, Jira, TypeScript, GraphQL',
         subtitleLink: 'https://fptsoftware.com/',
+        scopes: [
+            'Implement UI by design',
+            'Implement feature logic, fixing bugs',
+            'Unit test',
+            'Optimize performance',
+        ],
     },
     {
         title: 'Software Developer',

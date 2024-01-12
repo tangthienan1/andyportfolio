@@ -39,7 +39,6 @@ const About = () => {
                                 </p>
                             ))}
                         </div>
-
                         <div
                             className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8
                         dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8"
@@ -53,7 +52,6 @@ const About = () => {
                                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                             />
                         </div>
-
                         <div
                             className="col-span-2 flex flex-col items-end justify-between
                         xl:col-span-8 xl:flex-row xl:items-center md:order-3"
