@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const MotionLink = motion(Link);
 
 type LogoType = {
-    onClick: () => void;
+    onClick?: () => void;
 };
 const Logo: FC<LogoType> = ({ onClick }) => {
     return (

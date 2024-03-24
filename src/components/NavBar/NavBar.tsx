@@ -15,11 +15,10 @@ const NavBar = () => {
             className="w-full px-32 py-8 font-medium flex items-center justify-between
         dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8"
         >
-
             <DesktopNavbar onDarkModeClick={onDarkModeClick} mode={mode} />
             <MobileNavbar onDarkModeClick={onDarkModeClick} mode={mode} />
             <div className="absolute left-[50%] top-2 translate-x-[-50%]">
-                <Logo onClick={() => console.log(false)} />
+                <Logo />
             </div>
         </header>
     );

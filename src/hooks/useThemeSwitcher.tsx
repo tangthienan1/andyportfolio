@@ -13,19 +13,20 @@ const useThemeSwitcher = () => {
 
         const handleChange = () => {
             if (userPref) {
-                let check = userPref === ThemeEnum.DARK ? ThemeEnum.DARK : ThemeEnum.LIGHT;
-                setMode(check);
+                let currentUserMode =
+                    userPref === ThemeEnum.DARK ? ThemeEnum.DARK : ThemeEnum.LIGHT;
+                setMode(currentUserMode);
 
-                if (check === ThemeEnum.DARK) {
+                if (currentUserMode === ThemeEnum.DARK) {
                     document.documentElement.classList.add(ThemeEnum.DARK);
                 } else {
                     document.documentElement.classList.remove(ThemeEnum.DARK);
                 }
             } else {
-                let check = mediaQuery.matches ? ThemeEnum.DARK : ThemeEnum.LIGHT;
-                setMode(check);
+                let currentUserMode = mediaQuery.matches ? ThemeEnum.DARK : ThemeEnum.LIGHT;
+                setMode(currentUserMode);
 
-                if (check === ThemeEnum.DARK) {
+                if (currentUserMode === ThemeEnum.DARK) {
                     document.documentElement.classList.add(ThemeEnum.DARK);
                 } else {
                     document.documentElement.classList.remove(ThemeEnum.DARK);

@@ -9,7 +9,6 @@ import AnimatedText from '@/components/AnimatedText';
 import ButtonAsLink from '@/components/ButtonAsLink';
 import CustomHead from '@/components/CustomHead';
 import HireMe from '@/components/HireMe';
-import { LinkArrowIcon } from '@/components/Icons';
 import Layout from '@/components/Layout';
 import { landingPageDescription, landingPageTitle } from '@/data/landingPageData';
 
@@ -38,12 +37,7 @@ const Home: FC = () => {
                                 {landingPageDescription}
                             </p>
                             <div className="flex items-center self-start mt-2 lg:self-center">
-                                <ButtonAsLink
-                                    href={'/Resume-Tang-Thien-An.pdf'}
-                                    isDownLoadable={true}
-                                    icon={<LinkArrowIcon className="!w-6 ml-1" />}
-                                    content="Resume"
-                                />
+                                <ButtonAsLink href={'/about'} content="About" />
                                 <Link
                                     href="mailto:tangthienan9@gmail.com"
                                     className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-basel lg:text-center"
