@@ -53,7 +53,7 @@ export const experiences: BackgroundDetailType[] = [
     {
         title: 'Software Engineer',
         subTitle: 'NAB',
-        time: 'Dec 2022-Present',
+        time: 'Dec 2021-Present',
         address: 'Ho Chi Minh, Viet Nam',
         teamSize: 12,
         modal: 'Agile/Scrum',
