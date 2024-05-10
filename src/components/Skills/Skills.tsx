@@ -23,8 +23,12 @@ const Skills = () => {
                     Web
                 </motion.div>
 
+                <SkillItem name={'Kafka'} x={'5vw'} y={'-13vw'} />
+                <SkillItem name={'NGINX'} x={'5vw'} y={'-27vw'} />
                 <SkillItem name={'RTL'} x={'0vw'} y={'-19vw'} />
                 <SkillItem name={'NextJS'} x={'-17vw'} y={'-17vw'} />
+                <SkillItem name={'TailwindCSS'} x={'-23vw'} y={'-23vw'} />
+                <SkillItem name={'Shadcn'} x={'-13vw'} y={'-29vw'} />
                 <SkillItem name={'TypeScript'} x={'-33vw'} y={'-3vw'} />
                 <SkillItem name={'React Native'} x={'-23vw'} y={'-9vw'} />
                 <SkillItem name={'Jest'} x={'-20vw'} y={'2vw'} />

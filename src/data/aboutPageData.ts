@@ -21,9 +21,9 @@ export const highlightContentsData: HighlightContentsType[] = [
 ];
 
 export const biographyContentsData: string[] = [
-    `Hi, I'm Andy Tang or ND for short (Thien An Tang), a full-stack web developer with a passion
+    `Hi, I'm Andy Tang or ND for short (Thien An Tang), a full-stack JS web developer with a passion
    for creating beautiful, functional, and user-centered digital
-   experiences. With 3 years of experience in the field. I am always
+   experiences. With 4+ years of experience in the field. I am always
    looking for new and innovative ways to bring my client's visions to
    life.`,
     `I believe that develop is about more than just making application run
@@ -58,25 +58,24 @@ export const experiences: BackgroundDetailType[] = [
         teamSize: 12,
         modal: 'Agile/Scrum',
         technologies:
-            'ReactJS, Jest, RTL, Git, Rally, TypeScript, GraphQL, BFF, A11y, AWS, Jenkins, Micro FE, Nodejs, Bash script, Terraform, Hashicorp Vault, Linux, Docker',
-        description:
-            'For full-time official work, my team collaborated with Australian and Indian teams. My squad takes responsibility for a mini-app. My role is to implement the UI within integrate BioCatch and a11y, create resolvers on BFF, write queries or mutations with Apollo, and Spike and implement new functions, mentor new members, and present any new feature or new archive to the whole team. Take sharing section, Own some training class in office...',
+            'ReactJS, NodeJS, Express, Jest, RTL, Git, Rally, TypeScript, GraphQL, BFF, A11y, AWS, Jenkins, Micro FE, Micro services, Bash script, Terraform, Hashicorp Vault, Linux, Docker',
+        description: 'For full-time official work and full-stack developer',
         subtitleLink: 'https://www.nab.com.au/',
         scopes: [
             'Implement features or bug fixing with high quality, and high test coverage (with Jest on Be or Jest + RTL on FE).',
             'Build app UI from the design',
             'Implement bff with GraqhQL method and Nodejs and express',
+            'Implement downstream service',
             'Build a stub data to interact with the application',
             'Deployment',
             'Build a simulated shell to interact with app',
-            'Config Jenskin Pipeline, implement BioCatch, Ally',
-            'Create Cloudformation templates',
+            'Implement BioCatch, Ally',
             'Code review',
             'Spiking new feature',
-            'Join Planning meetings to split tasks.',
+            'Join Planning meetings to break tasks.',
             'Join training as a guilder.',
             'Guiding new member',
-            'Make sharing session (Formik, PKI model,...)',
+            'Make sharing session (A11y, BioCatch, PKI model, Browser behavior,...)',
         ],
     },
     {
